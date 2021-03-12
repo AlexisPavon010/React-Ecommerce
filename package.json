@@ -2,7 +2,7 @@
   "name": "react-firebase-tienda",
   "version": "0.1.0",
   "private": true,
-  "homepages": "https://alexispavon010.github.io/React-Ecommerce",
+  "homepages": "https:/alexispavon010.github.io/React-Ecommerce",
   "dependencies": {
     "@emotion/react": "^11.1.5",
     "@material-ui/core": "^5.0.0-alpha.25",
