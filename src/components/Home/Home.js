@@ -10,16 +10,16 @@ export default function Home() {
             {/* <img className="home__image" src="https://www.mobiledekho.com/wp-content/uploads/2018/01/952x501-3-5.jpg" alt="" /> */}
 
 
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner home__image">
-                    <div class="carousel-item active">
-                        <img src="https://www.mobiledekho.com/wp-content/uploads/2018/01/952x501-3-5.jpg" class="d-block w-100" alt="..."></img>
+            <div id="carouselExampleSlidesOnly" className="carousel slide" >
+                <div className="carousel-inner home__image">
+                    <div className="carousel-item active">
+                        <img src="https://www.mobiledekho.com/wp-content/uploads/2018/01/952x501-3-5.jpg" className="d-block w-100" alt="..."></img>
                     </div>
-                    <div class="carousel-item">
-                        <img src="https://www.mobiledekho.com/wp-content/uploads/2018/01/952x501-3-5.jpg" class="d-block w-100" alt="..."></img>
+                    <div className="carousel-item">
+                        <img src="https://www.mobiledekho.com/wp-content/uploads/2018/01/952x501-3-5.jpg" className="d-block w-100" alt="..."></img>
                     </div>
-                    <div class="carousel-item">
-                        <img src="https://www.mobiledekho.com/wp-content/uploads/2018/01/952x501-3-5.jpg" class="d-block w-100" alt="..."></img>
+                    <div className="carousel-item">
+                        <img src="https://www.mobiledekho.com/wp-content/uploads/2018/01/952x501-3-5.jpg" className="d-block w-100" alt="..."></img>
                     </div>
                 </div>
             </div>

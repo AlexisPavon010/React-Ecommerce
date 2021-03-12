@@ -1,7 +1,8 @@
 import axios from 'axios'
 
 const instace = axios.create({
-    baseURL: 'http://localhost:5001/tienda-react-717ce/us-central1/api'
+    baseURL: 'https://serverconexpress-alexispavon010.vercel.app/'
+
 })
 
 

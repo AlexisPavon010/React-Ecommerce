@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './Orders.css'
 import { db } from '../../firebase'
 import { useStateValues } from '../../StateProvider'
+import Order from '../Orders/Order'
  
 
 export default function Orders() {
@@ -35,7 +36,10 @@ export default function Orders() {
     return (
         <div className="orders">
             <h1>Your Orders</h1>
-            <h2>Hola liz</h2>
+
+            <div className="oders__order">
+                {orders?.map(order => (<Order order={order} />))}
+            </div>
         </div>
     )
 }

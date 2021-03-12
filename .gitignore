@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+#server
+/express
+/functions
+
 # testing
 /coverage
 
